@@ -55,3 +55,4 @@ impl TypeMetadata for Sqlite {
 
 impl SupportsOnConflictClause for Sqlite {}
 impl UsesAnsiSavepointSyntax for Sqlite {}
+impl SupportsReturningClause for Sqlite {}
